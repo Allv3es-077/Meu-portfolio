@@ -1,0 +1,145 @@
+
+/* 1. Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 2. Fundo e fonte da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+/* 3. Títulos */
+h1, h2 {
+    line-height: 1.2;
+}
+/* 4. Cabeçalho */
+header {
+    background-color: #000000;
+    padding: 35px 20px;
+    text-align: center;
+    border-bottom: 1px solid #303030;
+}
+header h1 {
+    font-size: 32px;
+    color: #58a6ff;
+    margin-bottom: 10px;
+}
+/* 5. Conteúdo principal */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Seções */
+#sobre,
+#projetos,
+#contato {
+    background-color: #1e1e1e;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #333333;
+    border-radius: 12px;
+}
+
+/* Títulos das seções */
+#sobre h2,
+#projetos h2,
+#contato h2 {
+    color: #58a6ff;
+    margin-bottom: 15px;
+}
+
+/* Links ao passar o mouse */
+a:hover {
+    color: #91c4ff;
+    text-decoration: underline;
+}
+
+/* Botão ao passar o mouse */
+button:hover {
+    background-color: #91c4ff;
+}
+
+/* Campos selecionados */
+input:focus,
+textarea:focus {
+    outline: 2px solid #58a6ff;
+    border-color: transparent;
+}
+/* 7. Títulos das seções */
+#sobre h2,
+#projetos h2,
+#contato h2 {
+    color: #58a6ff;
+    margin-bottom: 15px;
+}
+/* 8. Links */
+a {
+    color: #58a6ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #91c4ff;
+    text-decoration: underline;
+}
+/* 9. Botão */
+button {
+    padding: 12px 18px;
+    background-color: #58a6ff;
+    color: #121212;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #91c4ff;
+}
+/* 10. Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 12px;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #121212;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    font: inherit;
+}
+input:focus,
+textarea:focus {
+    outline: 2px solid #58a6ff;
+    border-color: transparent;
+}
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+/* 11. Rodapé */
+footer {
+    background-color: #1b1b1b;
+    color: #aaaaaa;
+    padding: 25px 20px;
+    text-align: center;
+    border-top: 1px solid #303030;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
